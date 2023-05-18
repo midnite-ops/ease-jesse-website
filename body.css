@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding-top: 130px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
+.content-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.intro-info h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 80%;
+}
+.intro-info p{
+    font-size: 22px;
+    line-height: 35px;
+}
+.intro-info{
+    width: 50%;
+}
+.intro-info-pic img{
+    width: 400px;
+}
+.content-1-learn-button{
+    background-color: rgba(8, 71, 8, 0.911);
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.content-1-learn-button:hover{
+    background-color: white;
+    color:rgba(8, 71, 8, 0.911);
+    transition: 0.15s;
+    border: solid 1px rgba(8, 71, 8, 0.911);
+}
+.content-2{
+    background-color: rgba(8, 71, 8, 0.911);
+    margin-top: 160px;
+    height: 700px;
+    display: flex;
+    position: relative;
+    align-items: end;
+    padding-bottom: 50px;
+}
+.home-ease-video{
+   position: absolute;
+   top: -100px;
+   right: 200px;
+   left: 200px;
+   text-align: center;
+}
+.ease-video{
+    width: 100%;
+    border-radius: 5px;
+}
+.download-info h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.download-info{
+    padding-left: 120px;
+    width: 50%;
+    line-height: 55px;
+}
+.download-info-button{
+    display:flex;
+    width: 50%;
+    align-items: center;
+}
+.download-info-button button{
+    padding: 12px 25px;
+    background-color:  rgba(8, 71, 8, 0.911);
+    color: white;
+    border: solid 1px white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.download-info-button img{
+    width: 25px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(347deg) brightness(106%) contrast(102%);
+    margin-right: 5px;
+}
+.download-info-button button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.15s;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(100%) contrast(100%);
+}
+.iphone-div{
+    position: absolute;
+    bottom: -1000px;
+    right: 100px;
+    display: flex;
+}
+.iphone-div img{
+    min-width: 500px;
+}
+.content-3{
+    margin-top: 100px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 120px;
+}
+.content-3 button{
+    font-size: 20px;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: solid 1px rgba(8, 71, 8, 0.911);
+    background-color: white;
+    color: rgba(8, 71, 8, 0.911);
+    margin-bottom: 20px;
+}
+.content-3 button:hover{
+    background-color: rgba(8, 71, 8, 0.911);
+    color: white;
+    transition: 0.15s;
+}
+.who-are-we-div{
+    width: 45%;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.who-are-we-div p{
+    line-height: 35px;
+}
+.what-we-do-div{
+    width: 45%;
+    font-size: 22px;
+}
+.what-we-do-div p{
+    line-height: 35px;
+}
+.footer-div{
+    height: 150px;
+    margin-top: 200px;
+    background-color: black;
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-div p{
+    color: grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-div img{
+    color: white;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(347deg) brightness(106%) contrast(102%);
+    margin-right: 10px;
+}
+.footer-div div{
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.footer-div button{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: rgb(26, 24, 24);
+    border: none;
+    margin-right: 10px;
+}
+.footer-div button img{
+    margin-left: 6px;
+    margin-top: 2px;
+    width: 22px;
+    height: 22px;
+}
